@@ -10,7 +10,7 @@ body{
     
     width: 300px;
     height: 300px;
-    border: solid 13px gray;
+    border: solid 15px gray;
     border-radius: 50%;
     position: fixed;
     left: 50%;
@@ -24,7 +24,7 @@ body{
 .circle-1{
     width: 300px;
     height: 300px;
-    border: solid 11px red;
+    border: solid 15px red;
     box-sizing: border-box;
     border-radius: 50%;
     position: fixed;
