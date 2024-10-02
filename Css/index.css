@@ -7,38 +7,51 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 header{
     background-color: #333;
     color: white;
-    padding: 10px 0;
+    /* padding: 10px 0; */
     text-align: center;
+    height: 300px;
 }
 
 
 .logo img{
-    max-width: 20%;
+    margin-left: 100px;
+    float: left;
+    border-radius: 20px;
+    border: 5px solid rgb(0, 0, 0);
+    width: 200px;
+    height: 300px;
+   
+   
 
 }
 
 .header-text h1{
-    margin: 0;
+   padding-top: 80px;
+    margin-left: 220px;
+    font-size: 3em;
 
 }
 .header-text p{
+    margin-left: 220px;
     margin: 5px 0;
-    font-size: 0.9em;
+    font-size: 1.2em;
 }
 
 
 .about,.assignment{
-    
-    margin: 20px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin-left: 220px;
     padding: 20px;
     background-color: white;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
     background-color: rgba(8, 252, 61, 0.956);
 
 
@@ -53,7 +66,7 @@ h2{
 }
 nav ol{
     list-style-type: none;
-    padding: 0%;
+  
    
 
 }
@@ -63,18 +76,20 @@ nav ol li{
 }
 
 nav ol li a{
+    display: inline-block;
     text-decoration: none;
     text-align: center;
-    color: #333;
-    background-color: #f4f4f4;
+    color: #000000;
+    background-color: #ffffff;
     padding: 5px 10px;
-    background-color: 5px;
-    transition: background-color 0.3s;
-
+    border-radius: 10px;
+    gap: 10px;
 }
 
 nav ol li a:hover {
-    background-color: #ddd;
+     background-color: #eeff00;
+     transition: background-color 0.3s ease;
+   
 }
 
 
@@ -86,5 +101,5 @@ footer{
     margin-top: 20px;
 }
 .about img{
-    max-width: 10%;
+    max-width: 5%;
 }
